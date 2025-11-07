@@ -1,15 +1,28 @@
-# "Express JS Tutorial - MVC Example CRUD REST API"
+#  Complaint Management System (Backend)
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+A simple **MVC-based backend system** for managing user complaints — built with **Node.js**, **Express**, and **MongoDB**.  
+It supports authentication, file uploads, and real-time updates.
 
-**Description:**
+##  Features
+-  User authentication with JWT  
+-  Submit and manage complaints  
+-  MongoDB database with Mongoose  
+-  File uploads using Multer  
+-  Date tracking with date-fns  
+-  Password hashing with bcryptjs  
+-  CORS and validation middleware  
 
-This repository shares the code applied during the Youtube tutorial. The tutorial is part of a [Node.js & Express for Beginners Playlist](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw) on my channel.  
+##  Tech Stack
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB (Mongoose)  
+- **Auth:** JWT + bcryptjs  
+- **View Engine:** HTML (MVC structure)
 
-[YouTube Tutorial](https://youtu.be/Dco1gzVZKVk) for this repository.
+## ⚙️ Installation
 
-I suggest completing my [8 hour JavaScript course tutorial video](https://youtu.be/EfAl9bwzVZk) if you are new to Javascript.
+Clone the repository and install dependencies:
 
-### Academic Honesty
-
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+```bash
+git clone  https://github.com/tunde-good-codes/complaints-system.git
+cd complaint-system
+npm install
